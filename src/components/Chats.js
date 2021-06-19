@@ -26,7 +26,7 @@ const Chats = () =>{
         <div className="chats-page">
             <div className="nav-bar">
                 <div className="logo-tab">
-                    CryptoChat
+                    CryptoChat hello world
                 </div>
                 <div className="logout-tab" onClick={handleLogout}>
                     Logout
@@ -39,6 +39,7 @@ const Chats = () =>{
                 userName = "."
                 userSecret = "."
             />
+            
         </div>
     )
 }
